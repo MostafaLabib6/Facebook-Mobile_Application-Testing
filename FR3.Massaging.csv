@@ -1,0 +1,322 @@
+Type,TC ID,Name / Title,Preconditions,Steps to be executed,Test Data,Expected results,Actual Results,Priority,Status,Requirement Traceability,Bugs Traceability,Test Type
+GUI,FACEBOOK_Massaging_GUI_001,Check to ensure that there are labels and controls on all input fields and have good alignmet,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",-,The labes and controls are presented on good way.,The labes and controls are presented on good way.,High,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_002,Check the positioning of GUI elements for different screen resolution.,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,"Good user experience on the screen, with sizeable and obvious buttons.","Good user experience on the screen, with sizeable and obvious buttons.",High,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_003,The fields and icons should be alligned in a good way,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,The fields and icons need to be aligned properly.,The fields and icons need to be aligned properly.,High,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_004,Verify the color of the misspelt word with a red underline.,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,underline missspelling word with red line,underline missspelling word with red line,Medium,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_005,Check for Clear demarcation of different sections on screen,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,Clear demarcation of different sections on screen,Clear demarcation of different sections on screen,Medium,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_006,Check Font used in an application is readable,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,Readable Font ,Readable Font ,High,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_007,Verify the Screen contains Meaninful Icons,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",_,meaningful Icons,meaningful Icons,High,Pass,FR 3: Massaging,,Manual
+GUI,FACEBOOK_Massaging_GUI_008,"Verify that the fonts, text color, and color coding in the Add Story screen is per standard","1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Go to the field of massanging
+",-,"The fonts, text color, and color coding in the Add Story screen is per standard","The fonts, text color, and color coding in the Add Story screen is per standard",High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_008,verify sending massage to Facebook Friends,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.write message contant
+5.Tap send","""hallo ,this my first messangt !""",Message should be sent successfully and should be visible in their conversation list.,Message should be sent successfully and should be visible in their conversation list.,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_009,Verify sending massage to other Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write user name
+4.write message contant
+5.Tap send","""hallo ,this my first messangt !""",Message should be sent successfully and should be visible in their message request,Message should be sent successfully and should be visible in their message request,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_010,Verify receiving massage from Facebook friend ,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened",1.Open messanger,_,message should be should deliverd successfully and should be visible inconversation list,message should be should deliverd successfully and should be visible inconversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_011,verify receiving massage from other Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened",1.Open messanger,_,message should be should deliverd successfully and should be visible message request,message should be should deliverd successfully and should be visible message request,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_012,verify sending audio record to Facebook Friend,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.record audio
+5.Tap send",test audio record,Message should be sent successfully and should be visible in in conversation list,Message should be sent successfully and should be visible in in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_013,verify sending audio record to other Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.record audio
+5.Tap send",test audio record,Message should be sent successfully and should be visible in their message request,Message should be sent successfully and should be visible in their message request,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_014,verify receiving audio record from Facebook Friend,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messenger 
+2.Tap on Chat",_,message should be deliverd successfully and should be visible in conversation list,message should be deliverd successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_015,verify receiving audio record from other Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messenger 
+2.Tap on Chat",_,message should be should deliverd successfully and should be visible message request,message should be should deliverd successfully and should be visible message request,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_016,verify attaching photo/video ,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on photo icon
+5.select photo/video
+6.Tap send",test video/photo,message should be deliverd successfully and should be visible in conversation list,message should be deliverd successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_017,verify sending captured photo by camera,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on photo icon
+5.select photo/video
+6.Tap send",test video/photo,message should be sent successfully and should be visible in conversation list,message should be sent successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_018,verify sending captured video by camera,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on photo icon
+5.select photo/video
+6.Tap send",test video/photo,message should be sent successfully and should be visible in conversation list,message should be sent successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_019,verify sending current locaction to Facebook user,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on more 
+5.Tap location
+6.send Current location
+7.Tap send",location,message should be sent successfully and should be visible in conversation list,message should be sent successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_020,verify reacting to massage,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Hold on message 
+5.react on message
+6.Tap send",_,react should be appear on message,react should be appear on message,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_021,verify replying to massage,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.pull message
+5.write on replyed message
+6.Tap send",_,message should be sent successfully and should be visible in conversation list,message should be sent successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_022,verify making voice call ,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap voice call icon
+",_,call should ring to other phone and call should start,call should ring to other phone and call should start,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_023,verify making voice call in group,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap voice call icon
+",_,call should ring to other phone and call should start,call should ring to other phone and call should start,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_024,verify making video call ,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap video call icon
+",_,call should ring to other phone and call should start,call should ring to other phone and call should start,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_025,verify making video call in group,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap video call icon
+",_,call should ring to other phone and call should start,call should ring to other phone and call should start,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_026,verify to see Facebook Friend status(online/offline),"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.look to active list",_,see Active users,see Active users,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_027,verify muting Facebook user,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap more
+5.Tap mute
+",_,User should be muted,user muted,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_028,verify searching in conversatioin,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap search icon
+5.write searching content
+","""hallo this my first message""",message should appear if exist,message should appear if exist,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_029,verify to muting notificaions&sounds,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap more
+5.Tap mute notifications
+",_,User should be muted,user should be muted,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_030,verify blocking Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap more
+5.tap Block
+",_,User should be blocked,user should be blocked,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_031,verify changing chat background theme,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap more
+5.tap theme
+6.pick background
+",_,background should be changed,background should be changed,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_032,verify removing massage after sent it,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.write message content
+5.tap sent
+6.Tap on the message
+7.Tap unsend massage
+","""hallo this my first message""",Message should be deleted,Message should be deleted,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_033,verify seeing list  of pervious chats,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened",1.open messager,_,by defulte massenger should be show previous chats,by defulte massenger should be show previous chats,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_034,verify marking chat as unread,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.open chat
+3.back and Tap Chat
+4.Tap unread message",_,chat should be marked as unread,chat should be marked as unread,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_035,verify archiveing Facebook user,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Chat 
+3.Tap archive
+4.Tap unread message",_,chat should be archived,chat should be archived,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_036,verify to see list message requests,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap ! Icon
+3.Tap message requests",_,message requests should be opened,message requests should be opened,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_037,verify creating Group with Facebook users,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.From Home Tap .
+3.Tap Create new Group",_,new Group should be Created,new Group should be Created,High,Pass,FR 3: Massaging,,Manual
+Postive,FACEBOOK_Massaging_GUI_038,verify Forward message to Facebook user,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messager 
+2.open chat
+3.Tap message
+4.Tap Forward",_,message should be forward,message should be forward,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_039,verify sending large audio record to Facebook user,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.record audio
+5.Tap send",test audio record,Message should be sent successfully and should be visible in conversation list,Message should be sent successfully and should be visible in conversation list,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_040,verify sending empty message,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+5.Tap send",,Sending button should be disable,Sending button should be disable,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_041,verify sending message with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon                                                                                            
+4- Click on ""New Message"" icon                              5-Write Name of facebook user                                                 6-Try to send message              ","""hallo this my first message""",Message Unsent,Message Unsent,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_042,verify sending invalid photo size,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on photo icon
+5.select unvalid photo size
+6.Tap send",test video/photo,"message should be not sent  +Error message""photo cant send""","message should be not sent  +Error message""photo cant send""",High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_043,veify sending invalid video size,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Facebook user name
+4.Tap on photo icon
+5.select unvalid photo size
+6.Tap send",test video/photo,"message should be not sent  +Error message""video cant send""","message should be not sent  +Error message""video cant send""",High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_044,verify making audio call with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.Tap audio call icon
+5.Tap send",test audio record,The call shouldn’t be started,The call shouldn’t be started,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_045,verify making video call with no intenet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.Tap video call icon
+5.Tap send",test video record,The call shouldn’t be started,The call shouldn’t be started,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_046,verify sending current location with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.Tap more 
+5.Tap location
+5.Tap send",current location,The message shouldn’t be sent,The message shouldn’t be sent,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_047,verify searching in converstion with no internet connection ,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","1.open messanger
+2.Tap Search icon 
+3.write Friend name
+4.Tap search icon
+5.write content to search
+",_,No result,No result,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_048,verify repoting Facebook user with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","From Chats, tap a conversation to open it.
+Tap the person's name at the top.
+Scroll down and tap Report.
+Select a category to help us understand what's wrong.
+Tap SUBMIT REPORT.",_,No result,No result,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_049,verify blocking Facebook users with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","From Chats, open the conversation with the person you want to block.
+Tap their name at the top of the conversation.
+Scroll down and tap Block.
+Tap Block.",,No result,No result,High,Pass,FR 3: Massaging,,Manual
+Negative,FACEBOOK_Massaging_GUI_050,verify logout with no internet connection,"1- Open application successfully
+2- Log in successfully
+3- Home Page is opened","From Chats, tap on your profile photo in the corner.
+Tap Privacy and then tap Logins.
+Tap on the device you want to log out on.
+Tap Log Out.",,No result,No result,High,Pass,FR 3: Massaging,,Manual

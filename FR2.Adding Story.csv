@@ -1,0 +1,297 @@
+Type,TC ID,Name / Title,Preconditions,Steps to be executed,Test Data,Expected results,Actual Results,Priority,Status,Requirement Traceability,Bugs Traceability,Test Type
+GUI,FACEBOOK_ADD_Story_GUI_001,Check to ensure that there are labels and controls on all input fields and have good alignmet,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",-,The labes and controls are presented on good way.,The labes and controls are presented on good way.,High,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_002,Check the positioning of GUI elements for different screen resolution.,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,"Good user experience on the screen, with sizeable and obvious buttons.","Good user experience on the screen, with sizeable and obvious buttons.",High,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_003,The fields and icons should be alligned in a good way,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,The fields and icons need to be aligned properly.,The fields and icons need to be aligned properly.,High,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_004,Verify the color of the misspelt word with a red underline.,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,underline missspelling word with red line,underline missspelling word with red line,Medium,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_005,Check for Clear demarcation of different sections on screen,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,Clear demarcation of different sections on screen,Clear demarcation of different sections on screen,Medium,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_006,Check Font used in an application is readable,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,Readable Font ,Readable Font ,High,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_007,Verify the Screen contains Meaninful Icons,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",_,meaningful Icons,meaningful Icons,High,Pass,FR 2: Add Story,,Manual
+GUI,FACEBOOK_ADD_Story_GUI_008,"Verify that the fonts, text color, and color coding in the Add Story screen is per standard","1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Go to the field of adding story
+",-,"The fonts, text color, and color coding in the Add Story screen is per standard","The fonts, text color, and color coding in the Add Story screen is per standard",High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_009,Verify creating Text Story ,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Write Story's text
+3.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully,Story shared Successfully,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_010,Verify changing Text Story Font,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Write Story's text
+3.change Story's Font
+3.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully with changed Font,Story shared Successfully with changed Font,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_011,Verify adding Text Story backgroud.,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Write Story's text
+3.Tap backgroun 
+4.Change background
+5.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully with changed Background,Story shared Successfully with changed Background,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_012,Verify changing Text Story privacy public,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Tap on Settings Icon
+3.change privacy to Public
+4.Write Story's text
+5.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully and can see in public way,Story shared Successfully and can see in public way,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_013,Verify changing Text Story privacy Friends,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Tap on Settings Icon
+3.change privacy to only Friends
+4.Write Story's text
+5.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully and only Friends can see it,Story shared Successfully and only Friends can see it,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_014,Verify changing Text Story privacy Custom,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create new Story
+2.Tap on Settings Icon
+3.change privacy to custom
+4.Write Story's text
+5.Tap on share Story","""Hallo this my first Facebook's story""",Story shared Successfully and only selected people can see it,Story shared Successfully and only selected people can see it,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_015,Verify commenting on Text story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.Tap on Create  Story
+2.Tap on Comment Field 
+3.write comment",_,Comment submited Successfully to Story's owner,Comment submited Successfully to Story's owner,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_016,Verify sharing Text story to instagaram,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Write Text  to share
+3- Tap on Privacy
+4- Enable Alwayes Share to Instagram
+5- Tap on Share","""Hallo this my first Facebook's story""",The shared story on Facebook is also shared as a story on Instagram,The shared story on Facebook is also shared as a story on Instagram,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_017,verify viewing list of muted stroies ,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap settings icon
+3.Tap Stories you've muted",_,Mute List is Available,Mute List is Available,Medium,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_018,verify adding Music story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap music Stroy
+3.Search by music","""Song name or singer name""",Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_019,verify adding Green Screen Story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Green screen stroy
+3.Tap share Story",Test image,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_020,verify adding Boomerang Story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Boomerang stroy
+3.Tap share Story",Test image,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_021,verify adding photo Story from gallery,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Gallary icon 
+3.Tap share Story",Test image,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_022,Verify adding vedio from gallery,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Gallery icon 
+3.Tap share Story",Test image,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_023,verify adding video captured by camera,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Capture image 
+3.Tap share Story",Test vedio,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_024,verify adding video with effects,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Gallery icon
+3.apply effects
+4.Tap share Story",Test vedio,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_025,verify selecting multiple photos story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Gallery icon
+3.select multiple photos
+4.Tap share Story",multiple photos,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_026,Verify selecting multiple videos story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2.Tap Gallery icon
+3.select multiple videos
+4.Tap share Story",multiple Vedios,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_027,Verify that the story can be replied on (emoji only),"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.open story 
+2.Tap emoji icon",_,emoji sent to Story's owner,emoji sent to Story's owner,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_028,Verify that a drowing can be added to story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Select a photo/video
+4- Tap on Drawing button
+5- Make a drawing
+6- Tap on Share",_,A story is shared with drawing added to it,A story is shared with drawing added to it,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_029,Verify that animation can be added to story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Select a photo/video
+4- Tap on anitmation button
+5- Make a drawing
+6- Tap on Share",_,A story is shared with animation added to it,A story is shared with animation added to it,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_030,Verify that music can be added to photo Story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Select a photo/video
+4- Tap  Music
+5- Search for music
+6- Tap on Share","Test image ,song",Story shared Successfully with music,Story shared Successfully with music,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_031,Verify tagging Friends in a story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened
+4-have Friends on Facebook","1- Tap on Create a new story
+2- Select a photo/video
+4- Write'@'and select Friends name
+6- Tap on Share",Test image ,Story shared Successfully and friend mentioned,Story shared Successfully and friend mentioned,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_032,Verify Reporting a story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1.At the top of your Feed, go to the Stories section and tap to open the story.
+2.Tap to find the photo or video you want to report.
+Click in the top right.
+3.Click Find support or report story",Story to report ,Story reported Successfully,Story reported Successfully,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_033,Verify Adding multiple Videos in collage story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Tap Select multiple
+4.Tap photo collage
+6- Tap on Share",vedios to test,Story shared Successfully ,Story shared Successfully ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_034,Verify adding multiple Videos in saperate storys,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Tap Select multiple
+4.Tap Saperate stories
+6- Tap on Share",vedios to test,Story shared Successfully videos in sapetate stories ,Story shared Successfully videos in sapetate stories ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_035,Verify Write Text on story,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.select photo
+4.Tap to Text
+5.Write Text
+6- Tap on Share","test photo + ""my first story""",Story shared Successfully with text on it ,Story shared Successfully with text on it ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_036,Verify adding Stickers to photo.,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.select photo
+4.Tap to stickers
+5.Select sticker
+6- Tap on Share",test photo + sticker,Story shared Successfully with sticker on it ,Story shared Successfully with sticker on it ,High,Pass,FR 2: Add Story,,Manual
+Postive,FACEBOOK_ADD_Story_GUI_037,Verify adding photo with Effects ,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.select photo
+4.Tap to effects
+5.Select effect
+6- Tap on Share",test photo + effect,Story shared Successfully with effect on it ,Story shared Successfully with effect on it ,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_038,verify adding corrupted photo,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Add corrupted photo
+4- Tap on Share",Corrupted photo,"Error massage""uable to share photo""","Error massage""uable to share photo""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_039,verify adding high quality photo,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Add high resolution photo
+4- Tap on Share",High resolution photo,Story shard Successfully,Story shard Successfully,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_040,verify adding low quality photo,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Add low resolution photo
+4- Tap on Share",Low resolution photo,Story shared Successfully,Story shared Successfully,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_041,verify adding corrupted video,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Add corrupted photo
+4- Tap on Share",Corrupted video,"Error massage""uable to share video""","Error massage""uable to share video""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_042,verify adding large video size,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Add very large video size
+4- Tap on Share",vedios to test,"Error massage""unable to share video""","Error massage""unable to share video""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_043,verify selecting more than 15 photo,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.select multiple photos more than 15
+4- Tap on Share",test photos,"Error massage""uable to share more than 15 photo""","Error massage""uable to share more than 15 photo""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_044,verify using camera when camera permission is denyed,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Tap Camera icon
+3.deny camera permission
+4- Tap on Share",_,Error massage back to Field of story,Error massage back to Field of story,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_045,Verify adding story with no internet connection,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4- Tap on Share",test photo,"Error massage""no internet connection""","Error massage""no internet connection""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_046,Verify adding stickers with no internet connection,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4.add Stickers
+4- Tap on Share",test photo,"Error massage""no internet connection""","Error massage""no internet connection""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_047,"Verify setting story privacy to friends, an unfriend cannot see the story","1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4.edit privacy to Friends
+4- Tap on Share",test photo,only Friends can see the Story,only Friends can see the Story,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_048,Verify setting story privacy to custom ,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4.edit privacy to custom
+4- Tap on Share",test photo,only selected Friends can see the Story,only selected Friends can see the Story,High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_049,"Verify using Location ,when location permession is denyed","1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4.Tap Location icon
+5.deny location permission
+6- Tap on Share",test photo,"Error massage""cannot access location""","Error massage""cannot access location""",High,Pass,FR 2: Add Story,,Manual
+Negative,FACEBOOK_ADD_Story_GUI_050,Verify user cannot add or search for GIF while internet connection is lost,"1- Open application successfully
+2- Log in with valid username and password
+3- Home Page is opened","1- Tap on Create a new story
+2- Open Gallery
+3.Select photo
+4add stickers
+5- Tap on Share",_,"Error massage""no internet connection""","Error massage""no internet connection""",High,Pass,FR 2: Add Story,,Manual

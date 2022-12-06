@@ -1,0 +1,251 @@
+Type,TC ID,Name / Title,Preconditions,Steps to be executed,Test Data,Expected results,Actual Results,Priority,Status,Requirement Traceability,Bugs Traceability,Test Type
+GUI,FACEBOOK_ADDPOST_GUI_001,Check to ensure that there are labels and controls on all input fields and have good alignmet,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,The labes and controls are presented on good way.,The labes and controls are presented on good way.,High,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_002,Check the positioning of GUI elements for different screen resolution.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,"Good user experience on the screen, with sizeable and obvious buttons.","Good user experience on the screen, with sizeable and obvious buttons.",High,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_003,The fields and icons should be alligned in a good way,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,The fields and icons need to be aligned properly.,The fields and icons need to be aligned properly.,High,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_004,Verify the color of the misspelt word with a red underline.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,underline missspelling word with red line,underline missspelling word with red line,medium,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_005,Check for Clear demarcation of different sections on screen,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,Clear demarcation of different sections on screen,Clear demarcation of different sections on screen,medium,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_006,Check Font used in an application is readable,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,Readable Font ,Readable Font ,High,Pass,FR1:Add Post,,Manual
+GUI,FACEBOOK_ADDPOST_GUI_007,Verify the Screen contains Meaninful Icons,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,meaningful Icons,meaningful Icons,High,Pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_008,Verify adding a post without photo or video,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib,the written post successfully posted ,the written post successfully posted ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_009,Verify adding a post with single photo ,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib+image,the written post successfully posted and test image successfully posted,the written post successfully posted and test image successfully posted,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_010,Verify adding a post with single video ,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + single video,the written post successfully posted and test video successfully posted ,the written post successfully posted and test video successfully posted ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_011,Verify adding a post with multiple videos.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + multiple videos,the written post successfully posted and test videos successfully posted ,the written post successfully posted and test videos successfully posted ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_012,Verify adding a post with multiple photos.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + multiple photos,the written post successfully posted and test photos successfully posted ,the written post successfully posted and test photos successfully posted ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_013,Verify adding a post with share location,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + current location,the written post successfully posted and current location successfully posted ,the written post successfully posted and current location successfully posted ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_014,Verify adding a post with tag people.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + tagged people,the written post successfully posted with tagged people ,the written post successfully posted with tagged people ,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_015,Verify adding a post emoji.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + Selected emoji/s,the written post contains emoji/s successfully posted  ,the written post contains emoji/s successfully posted  ,medium,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_016,Verify adding a post with  event.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Hallo my name is mostafa labib + Selected emoji/s,the written post contains emoji/s successfully posted  ,,,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_017,Verify adding a post with live video.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",,live video is started,live video is started,high,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_018,Verify adding a post contains photo and video.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Hallo my name is mostafa labib"" + Selected emoji/s",the written post contains emoji/s successfully posted  ,,,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_019,Verify adding a post and set the visibility to public,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Hallo my name is mostafa labib """,the written post share with all user in Facebook,Post shared as public,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_020,Verify adding a post and set the visibility to only me,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Hallo my name is mostafa labib """,the written post share with only me audience,Post shared only me can see it,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_021,Verify adding a post and set the visibility to friends,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Hallo my name is mostafa labib """,the written post share with Friends  audience,Post shared only with Friends on facebook can see it,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_022,Verify adding a post and set the visibility to friends except,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Hallo my name is mostafa labib """,the written post share with Friends audience except the pick user,Post shared only with Friends on facebook except picked users,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_023,Verify writing a post with attached captured camera photo,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",captured image via camera,The  captured images via camera are successfully posted on my profile.,The  captured images via camera are successfully posted on my profile.,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_024,Verify writing a post with attached camera video.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",captured video via camera,The written post successfully posted and the captured video via camera successfully posted,The written post successfully posted and the captured video via camera successfully posted,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_025,Verify writing a post while adding feeling /activity,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa ""+  feeling /activity",The written post successfully posted with feeling /activity,The written post successfully posted with feeling /activity,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_026,Verify adding a post contains GIF,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa ""+  GIF",The written post successfully posted with GIF,The written post successfully posted with GIF,High,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_027,Verify adding post and sharing to instagram,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",'hallo my name is mostafa'',The post is successfully published on Facebook as well as Instagram,The post is successfully published on Facebook as well as Instagram,high,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_028,Verify adding a background color to a writen post,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",'hallo my name is mostafa'',The written post successfully posted with picked background,The written post successfully posted with picked background,high,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_029,Verify  adding a post to created album,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa""",The written post successfully posted in album,The written post successfully posted in album,high,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_030,Verify  adding a post to new album,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa""",The writtenpost successfully added to album,The writtenpost successfully added to album,high,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_031,Verify  adding low resolution (244*111),Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa""+picked photo",The Written post successfully added and photo successufully posted,The Written post successfully added and photo successufully posted,medium,pass,FR1:Add Post,,Manual
+postive,FACEBOOK_ADDPOST_GUI_032,Verify  adding high quality image,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa""+picked photo",The Written post successfully added and photo successufully posted,The Written post successfully added and photo successufully posted,medium,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_033,Verify adding corrupted image,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo my name is mostafa""+picked photo",post cannot posted,post cannot posted,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_034,create empty post.,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",Empty text,Clicking the post button is disabled,disabled Post button,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_035,create post with utf8 characters,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""Upset >:O >:-O >:o >:-o""",The Written post successfully added ,The Written post successfully added ,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_036,Verify adding post with super long paragraphs (more than 63206characters),Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",long paragraph,"Error massage""A status can't be longer than 63,206 characters, but this one is 124,764 characters in length. Please make it a little shorter and try again.""","Error massage""A status can't be longer than 63,206 characters, but this one is 124,764 characters in length. Please make it a little shorter and try again.""",High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_037,Verify tagging every Facebook user,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo its my first post"" + tag people",cannot tag non friends or not followers people,cannot post .,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_038,verify editing loaded image (by crop tool),Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo its my first post"" + photo","Error massage""unable to crop photo""","Error massage""unable to crop photo""",High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_039,Verify back to field of writing a post after Crop Error apper,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo its my first post"" + photo",Back to field of writing a post,Loading Screen(waiting screen),medium,fail,FR1:Add Post,Facebook_adding_post_crop_image,Manual
+Negative,FACEBOOK_ADDPOST_GUI_040,Trying to search for a GIF while no internet connection,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""hallo its my first post"" + GIF",Error massage(no internet connection),Error massage(no internet connection),High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_041,Verify trying to access camera while there is no permission for camra to be accesed,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",_,back to writing field ,back to writing field ,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_042,Verify adding photo with live video,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","test photo,live video",live video button is unable,live video button is unable,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_043,Verify continue posting after loosing internet connection,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""",The uploading should continue after the internet connection is back,The uploading should continue after the internet connection is back,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_044,"Verify when making a Friend post, an unfriend cannot view the post ",Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""",UnFriends cannot View the post,UnFriends cannot View the post,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_045,"Verify when making a Friend except post,  the excepted friends cannot view the post ",Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""",The post should not be viewd by excepted friends users,The post should not be viewd by excepted friends users,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_046,"Verify when making a Specific friends post, the other Facebook user cannot view the post ",Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""",The post should not be viewd by public people,The post should not be viewd by public people,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_047,"Verify when making a Only me post, no one view the post ",Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""",The post should not be viewd by all Facebook users,The post should not be viewd by all Facebook users,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_048,Verify adding multiple Feelings/activities,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ","""this my first post on Facebook""+activity",post should posted with multiple activities,posted with last added activity,High,fail,FR1:Add Post,Adding_post_add_multiple_activity,Manual
+Negative,FACEBOOK_ADDPOST_GUI_049,Verify tyring to check-in a location while denying access to location services,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",-,back to writing field ,back to writing field ,High,pass,FR1:Add Post,,Manual
+Negative,FACEBOOK_ADDPOST_GUI_050,verify upload large video size,Manual,"1- Go to the field of writing a post
+2- Write a text post
+3- Tap on Check in
+4- Allow Facebook to acces your location
+5-add location press  post button                 ",test video,the video post successfully posted  ,the video post successfully posted  ,medium,pass,FR1:Add Post,,Manual
